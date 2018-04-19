@@ -1,0 +1,144 @@
+@charset "utf-8";
+@font-size {
+	font-family: fontelogo;
+	src: url ("");
+}
+body {
+	background-color: #fff;
+}
+div#interface {
+	width: 800px;
+	background-color: #FFFAFA;
+	color: black;
+	box-shadow: 0px 0px 20px black;
+	margin: -20px auto 0px auto;
+	padding: 10px 10px 10px 10px;
+}
+header#cabecalho {
+	height: 140px;
+	background: url("../_imagens/will.jpeg");
+}
+header#cabecalho h1 {
+	font-family: Comic Sans MS, sans-serif;
+	margin-left: 250px;
+	color: #fff;
+	font-size: 45px;
+}
+header#cabecalho h2 {
+	font-family: Arial, sans-serif;
+	margin-left: 300px;
+	color: #fff;
+	margin-top: -10px;
+	font-size: 20px;
+}
+figure#locais { /* borda*/ /*sempre quando for um "id" colocar a cerquílha, famoso jogo da velha */
+	 /* faz com que a legenda fique em cima da imagem, faz com que o figure fique na posição relaiva, isto é, na posição onde ele foi colocado no html */
+	border: 8px solid #fff;
+	box-shadow/*faz o sombreamento, vulgo disfarçado*/:1px/*deslocamento horizontal*/1px/*deslocamento vertical*/4px/*tamanho do disfarçado*/ black/* cor do disfarçado*/;
+	width: 310px;
+	margin-top: 50px;
+}
+figure#locais img { /* feito para fazer a imagem preencher toda a borda*/
+	width: 100%; /*largura*/
+	height: 100%;
+}
+figure#buffet { /* borda*/ /*sempre quando for um "id" colocar a cerquílha, famoso jogo da velha */
+	 /* faz com que a legenda fique em cima da imagem, faz com que o figure fique na posição relaiva, isto é, na posição onde ele foi colocado no html */
+	border: 8px solid #fff;
+	box-shadow/*faz o sombreamento, vulgo disfarçado*/:1px/*deslocamento horizontal*/1px/*deslocamento vertical*/4px/*tamanho do disfarçado*/ black/* cor do disfarçado*/;
+	width: 310px;
+	margin-top: 50px;
+}
+figure#buffet img { /* feito para fazer a imagem preencher toda a borda*/
+	width: 100%; /*largura*/
+}
+figure#lazer { /* borda*/ /*sempre quando for um "id" colocar a cerquílha, famoso jogo da velha */
+	 /* faz com que a legenda fique em cima da imagem, faz com que o figure fique na posição relaiva, isto é, na posição onde ele foi colocado no html */
+	border: 8px solid #fff;
+	box-shadow/*faz o sombreamento, vulgo disfarçado*/:1px/*deslocamento horizontal*/1px/*deslocamento vertical*/4px/*tamanho do disfarçado*/ black/* cor do disfarçado*/;
+	width: 310px;
+	margin-top: 50px;
+}
+figure#lazer img { /* feito para fazer a imagem preencher toda a borda*/
+	width: 100%; /*largura*/
+}
+figure#musica { /* borda*/ /*sempre quando for um "id" colocar a cerquílha, famoso jogo da velha */
+	 /* faz com que a legenda fique em cima da imagem, faz com que o figure fique na posição relaiva, isto é, na posição onde ele foi colocado no html */
+	border: 8px solid #fff;
+	box-shadow/*faz o sombreamento, vulgo disfarçado*/:1px/*deslocamento horizontal*/1px/*deslocamento vertical*/4px/*tamanho do disfarçado*/ black/* cor do disfarçado*/;
+	width: 310px;
+	margin-top: 50px;
+}
+figure#musica img { /* feito para fazer a imagem preencher toda a borda*/
+	width: 100%; /*largura*/
+}
+figure#seguranca { /* borda*/ /*sempre quando for um "id" colocar a cerquílha, famoso jogo da velha */
+	 /* faz com que a legenda fique em cima da imagem, faz com que o figure fique na posição relaiva, isto é, na posição onde ele foi colocado no html */
+	border: 8px solid #fff;
+	box-shadow/*faz o sombreamento, vulgo disfarçado*/:1px/*deslocamento horizontal*/1px/*deslocamento vertical*/4px/*tamanho do disfarçado*/ black/* cor do disfarçado*/;
+	width: 310px;
+	margin-top: 50px;
+}
+figure#seguranca img { /* feito para fazer a imagem preencher toda a borda*/
+	width: 100%; /*largura*/
+}
+section#corpo {
+	display: block;/*ser definida como um bloco*/
+	width/*largura*/: 384px;
+	float: left; /*flutua a esquerda*/
+	 
+	padding-right/*espaçamento interno do lado direito*/:  15px;
+	list-style: none;
+}
+section#corpo h1 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	margin-left: 60px;
+	margin-top: -10px;
+}
+section#corpo2 {
+	display: block;/*ser definida como um bloco*/
+	width/*largura*/: 400px;
+	float: right; /*flutua a esquerda*/
+	list-style: none;
+}
+section#corpo2 h1 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	margin-left: 60px;
+	margin-top: -10px;
+}
+nav#menu {
+	display: block;
+} 
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+}
+nav#menu li {
+	background-color: #fff;
+	margin: 5px;
+	color: black;
+	box-shadow: 0px 0px 10px black;
+	padding: 2px;
+	display: inline-block; 
+	
+}
+nav#menu a {
+	color: #fff;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+nav#menu h1 {
+	display: none; /* faz, vizualmente, o texto desaparecer, mas ainda permite que ele fique evidente para o navegador de busca */
+}
+footer#rodape {	
+	clear: both; /*fz com que esse conteúdo do rodapé seja mostrado fora da divisão do section e do aside*/
+	border-top: 1px /*espessura da linha*/ solid/*tipo da linha*/ #606060/*cor da linha*/;
+}
+footer#rodape p{
+	text-align/*alinhamento do texto*/: center; /*texto centralizado*/
+
+} 

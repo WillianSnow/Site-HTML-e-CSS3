@@ -1,0 +1,8 @@
+iframe {
+	box-shadow: 
+}
+iframe:hover  { /* faz o efeito de passar o mouse em cima e mudar alguma coisa */
+	background-color: black;
+	color: #fff;
+	transition: background-color 1s;
+}

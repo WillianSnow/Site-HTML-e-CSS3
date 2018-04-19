@@ -1,0 +1,187 @@
+@charset "utf-8";
+@font-size {
+	font-family: fontelogo;
+	src: url ("");
+}
+body {
+	background-color: #fff;
+}
+div#interface {
+	width: 880px;
+	background-color: #FFFAFA;
+	color: black;
+	box-shadow: 0px 0px 20px black;
+	margin: -20px auto 0px auto;
+	padding: 10px 10px 10px 10px;
+	position: relative;
+}
+header#cabecalho {
+	height: 140px;
+	background: url("../_imagens/will.jpeg");
+}
+header#cabecalho h1 {
+	font-family: Comic Sans MS, sans-serif;
+	margin-left: 280px;
+	color: #fff;
+	font-size: 45px;
+}
+header#cabecalho h2 {
+	font-family: Arial, sans-serif;
+	margin-left: 330px;
+	color: #fff;
+	margin-top: -10px;
+	font-size: 20px;
+}
+nav#menu {
+	display: block;
+} 
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+}
+nav#menu li {
+	background-color: #fff;
+	margin: 5px;
+	color: black;
+	box-shadow: 0px 0px 10px black;
+	padding: 2px;
+	display: inline-block; 
+}
+nav#menu a {
+	color: #fff;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+p#ao {
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+	margin-left: 350px;
+	margin-top: 40px;
+}
+ul#album-fotos {
+	width: 900px;
+	margin: 0 auto auto auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+	position: relative;
+}
+ul#album-fotos li {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.6);
+	padding: 15px;
+	font-size: 15pt;
+}
+ul#album-fotos li span {
+	opacity: 0;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	display: block;
+	width: 200px;
+	height: 200px;
+}
+ul#album-fotos li span:hover {
+	opacity: 1;
+	background-color: rgba(255,250,250,.4);
+}
+ul#album-fotos li#foto1 {
+	background: url("../_imagens/local2.jpg") no-repeat;
+	
+}
+ul#album-fotos li#foto2 {
+	background: url("../_imagens/local3.jpg") no-repeat;
+	
+} 
+ul#album-fotos li#foto3 {
+	background: url("../_imagens/local4.jpg") no-repeat;
+	
+}
+ul#album-fotos li#foto4 {
+	background: url("../_imagens/musica1.jpg") no-repeat;
+	
+}
+ul#album-fotos li#foto5 {
+	background: url("../_imagens/musica2.jpg") no-repeat;
+
+}
+ul#album-fotos li#foto6 {
+	background: url("../_imagens/musica3.jpg") no-repeat;
+	
+}
+ul#album-fotos li#foto7 {
+	background: url("../_imagens/salgadinho.jpg") no-repeat;
+	
+}
+ul#album-fotos li#foto8 {
+	background: url("../_imagens/salgadinho2.jpg") no-repeat;
+	
+}
+ul#album-fotos li#foto9 {
+	background: url("../_imagens/salgadinho3.jpg") no-repeat;
+	
+}
+ul#album-fotos li#foto10 {
+	background: url("../_imagens/doce.jpg") no-repeat;
+	
+} 	
+ul#album-fotos li#foto11 {
+	background: url("../_imagens/doce2.jpg") no-repeat;
+}
+ul#album-fotos li#foto12 {
+	background: url("../_imagens/doce3.jpg") no-repeat;
+}
+ul#album-fotos li#foto13 {
+	background: url("../_imagens/bolo.jpg") no-repeat;
+}
+ul#album-fotos li#foto14 {
+	background: url("../_imagens/bolo2.jpg") no-repeat;
+}
+ul#album-fotos li#foto15 {
+	background: url("../_imagens/bolo3.jpg") no-repeat;
+}
+ul#album-fotos li#foto16 {
+	background: url("../_imagens/pulapula.jpg") no-repeat;
+}
+ul#album-fotos li#foto17 {
+	background: url("../_imagens/pulapula2.jpg") no-repeat;
+}
+ul#album-fotos li#foto18 {
+	background: url("../_imagens/pulapula3.jpg") no-repeat;
+} 
+ul#album-fotos li#foto19 {
+	background: url("../_imagens/piscinabolinha.jpg") no-repeat;
+}
+ul#album-fotos li#foto20 {
+	background: url("../_imagens/piscinabolinha2.jpg") no-repeat;
+}
+ul#album-fotos li#foto21 {
+	background: url("../_imagens/piscinabolinha3.jpg") no-repeat;
+}
+ul#album-fotos li#foto22 {
+	background: url("../_imagens/seguranca1.jpg") no-repeat;
+}
+ul#album-fotos li#foto23 {
+	background: url("../_imagens/seguranca2.jpg") no-repeat;
+}
+ul#album-fotos li#foto24 {
+	background: url("../_imagens/seguranca3.jpg") no-repeat;
+}
+
+nav#menu h1 {
+	display: none; /* faz, vizualmente, o texto desaparecer, mas ainda permite que ele fique evidente para o navegador de busca */
+}
+footer#rodape {	
+	clear: both; /*fz com que esse conteúdo do rodapé seja mostrado fora da divisão do section e do aside*/
+	border-top: 1px /*espessura da linha*/ solid/*tipo da linha*/ #606060/*cor da linha*/;
+}
+footer#rodape p{
+	text-align/*alinhamento do texto*/: center; /*texto centralizado*/
+
+} 
